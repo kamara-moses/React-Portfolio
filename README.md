@@ -1,7 +1,7 @@
 ## Badges
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![React Portfolio Demo]()
+![React Portfolio Demo](src/assets/img/react-portfolio.gif)
 
 ## Description
 React Portfolio that show cases all of my skills that I have learned in the program to bring me to closer to being Employer Competitive. This will be used as a showcase to future employers of what am capable of and the possibilities are endless with creativity and functionality.
