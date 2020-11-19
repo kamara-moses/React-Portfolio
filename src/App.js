@@ -1,6 +1,6 @@
 import React from "react";
 import MyNavbar from "./components/navbar/navbar.component";
-import MyCarousal from "./components/conveyer/conveyer.component";
+import MyConveyer from "./components/conveyer/conveyer.component";
 import MyTitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Container from "react-bootstrap/Container";
@@ -16,7 +16,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
-      <MyCarousal />
+      <MyConveyer />
       <MyTitleMessage />
       <MyNavbar />
 

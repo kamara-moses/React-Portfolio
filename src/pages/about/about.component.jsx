@@ -31,7 +31,7 @@ const About = () => {
                 Hi! I am <strong>&nbsp;Moses Kamara</strong>
                 <br />
                 I'm a Full Stack Developer with extensive experience in
-                information technology and responsive web development. Recently,
+                Program Management and responsive web development. Recently,
                 I attended a Certification program in Full Stack Web Development
                 through the University of Washington, where I learned best
                 practices for designing powerful mobile-friendly websites and
