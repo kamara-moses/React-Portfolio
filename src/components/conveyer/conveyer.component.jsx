@@ -6,7 +6,7 @@ import Slide3 from "../../assets/img/conveyer/slide3.webp";
 import ScrollDown from "../scroll-down/scroll-down.component";
 import "./conveyer.css";
 
-const MyCarousal = () => {
+const MyConveyer = () => {
   return (
     <div id="home">
       <Carousel controls={false} indicators interval={2500} pause={false}>
