@@ -4,7 +4,7 @@ import Slide1 from "../../assets/img/conveyer/slide1.jpg";
 import Slide2 from "../../assets/img/conveyer/slide2.webp";
 import Slide3 from "../../assets/img/conveyer/slide3.webp";
 import ScrollDown from "../scroll-down/scroll-down.component";
-import "./my-conveyer.styles.css";
+import "./conveyer.css";
 
 const MyCarousal = () => {
   return (
