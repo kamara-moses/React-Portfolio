@@ -6,7 +6,7 @@
 ## Description
 React Portfolio that show cases all of my skills that I have learned in the program to bring me to closer to being Employer Competitive. This will be used as a showcase to future employers of what am capable of and the possibilities are endless with creativity and functionality.
 
-<img src='public/assets/images/architecture.png' alt='design pattern of the app'>
+<img src='src/assets/img/react-portfolio.png' alt='react portfolio app'>
 
 ## Table of Contents
 * [Description](#description)
