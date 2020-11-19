@@ -4,8 +4,7 @@
 ![React Portfolio Demo]()
 
 ## Description
-Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
-The app will store every burger in a database, whether devoured or not.
+React Portfolio that show cases all of my skills that I have learned in the program to bring me to closer to being Employer Competitive. This will be used as a showcase to future employers of what am capable of and the possibilities are endless with creativity and functionality.
 
 <img src='public/assets/images/architecture.png' alt='design pattern of the app'>
 
