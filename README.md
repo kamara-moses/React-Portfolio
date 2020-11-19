@@ -39,8 +39,8 @@ Before installing this application on yopur local computer, ensure that you have
 ## Technologies
    - Node.js
    - Node Packages (react, react-bootstrap, styled-components, react-script,typewriter-effects etc)
-   - GH-Pages
-   - @merc/react-timeline
+   - JSX
+   - React
 
 ## Contributing
 If you would like to contribute to this project please reach out to me on Github or email.
