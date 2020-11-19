@@ -11,9 +11,9 @@ import scheduler from "../../assets/img/projects/scheduler_app.png";
 import weather_dashboard from "../../assets/img/projects/Weather-Dashboard.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-
 import "./projects.css";
 
+{/* Projects being shown in a timeline manner */}
 const TimeLine = () => {
   return (
     <div id="projects">

@@ -6,6 +6,7 @@ import Slide3 from "../../assets/img/conveyer/slide3.webp";
 import ScrollDown from "../scroll-down/scroll-down.component";
 import "./conveyer.css";
 
+{/* carousel in the home section of the page */}
 const MyConveyer = () => {
   return (
     <div id="home">

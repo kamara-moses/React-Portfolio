@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "./navbar.css";
 
+{/* Navbar component with toggle function */}
 const MyNavbar = () => {
   return (
     <div>

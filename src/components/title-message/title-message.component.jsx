@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
+/* Typewriter message effect on the home section of the page */
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
@@ -31,6 +32,7 @@ const MyTitleMessage = styled.h1`
   }
 `;
 
+/* Typewriter message effect on the home section of the page */
 const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
@@ -45,7 +47,7 @@ const TitleMessage = () => (
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Father", "Husband", "Learner"],
+              strings: ["Web Developer", "Father", "Husband", "Knowledge Seeker"],
               autoStart: true,
               loop: true,
               delay: 50

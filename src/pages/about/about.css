@@ -1,16 +1,20 @@
+/* styling the background of the about section */
 #about {
-    background-image: url(../../assets/img/background/background.webp);
+  background-image: url(../../assets/img/background/background.webp);
 }
+
+/* styling the background of the about section */
 .about {
-    background-color: transparent;
-    font-size: 1.1em;
-  }
-  
-  .profile {
-    max-width: 18em;
-  }
-  
-  .my-details {
-    background-color: rgba(255, 255, 255, 0.747);
-  }
-  
+  background-color: transparent;
+  font-size: 1.1em;
+}
+
+/* profile img styling */
+.profile {
+  max-width: 18em;
+}
+
+/* styling of the details contained in the about section */
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747);
+}

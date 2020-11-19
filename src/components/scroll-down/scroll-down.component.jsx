@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+/* scroll of the page styling */
 const MyScroll = styled.div`
   position: relative;
   z-index: 1;
@@ -19,6 +20,7 @@ const MyScroll = styled.div`
   }
 `;
 
+/* scroll of the page styling */
 const ScrollDown = () => {
   return (
     <MyScroll>

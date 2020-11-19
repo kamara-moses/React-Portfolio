@@ -8,6 +8,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 import Resume from "../../assets/MosesResumé.pdf";
 
+{/* about section */}
 const About = () => {
   return (
     <div id="about">

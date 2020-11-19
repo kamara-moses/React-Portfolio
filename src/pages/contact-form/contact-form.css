@@ -1,3 +1,4 @@
+/* contact styling */
 .contact-jumbotron {
     background-image: url("../../assets/img/background/background.webp");
     background-size: cover;
@@ -11,5 +12,9 @@
   #youtube-btn:hover {
     background-color: #f83f37;
     color: #ffffff;
+  }
+
+  #contactSect {
+    background-image: url("../../assets/img/background/background.webp");
   }
   
