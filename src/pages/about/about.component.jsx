@@ -53,7 +53,7 @@ const About = () => {
                       Express.js, Bootstrap, Materialize
                     </li>
                     <li>
-                      <b>Other Technologies: </b>Node.js, Passport.js,
+                      <b>Other Technologies: </b>Node.js, Passport.js, Firebase,
                       Handlebars, Git, Heroku, JWT Auth, AJAX, IndexedDB API
                     </li>
                   </ul>
