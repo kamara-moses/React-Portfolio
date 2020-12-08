@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from "react";
 import "./contact-form.css";
 import Button from "react-bootstrap/Button";
 
-
-class Contact extends Component {
+export default class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -12,6 +11,31 @@ class Contact extends Component {
     };
   }
 
+  render() {
+    const { status } = this.state;
+    return (
+      <div>
+      <form
+        onSubmit={this.submitForm}
+        action="https://formspree.io/f/xbjpkqrr"
+        method="POST"
+      >
+        <label>Email:</label>
+        <input type="text" className="form-control" name="name" placeholder="Bob Smith" />
+        <label>Message:</label>
+        <textarea name="message" className="form-control" rows="6" />
+        {status === "SUCCESS" ? <p>Thanks you for sending me a message!</p> : <Button className="m-2" variant="outline-primary">
+                        Submit
+                      </Button>}
+        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+      </form>
+      <div className="contactInfo text-center">
+      <span>Email: </span><a href="mailto:kamara.moses@yahoo.com">kamara.moses@yahoo.com</a><br />
+      <span>Call: </span><a href="tel:(206) 302-8844">(206) 302-8844</a><br />
+    </div>
+    </div>
+    );
+  }
 
   submitForm(ev) {
     ev.preventDefault();
@@ -31,48 +55,4 @@ class Contact extends Component {
     };
     xhr.send(data);
   }
-
-  render() {
-    const { status } = this.state;
-    return (
-      <div className="bg-white text-primary" id="contactSect">
-        <div className="container" id="contact">
-          <h2 className="contact text-center">Contact Me</h2>
-
-          <form
-            className="contact-form"
-            onSubmit={this.submitForm}
-            action="https://formspree.io/f/xbjpkqrr"
-            method="POST">
-            <div className="form-group">
-              <label>Name</label>
-              <input type="text" className="form-control" id="exampleInputName1" name="name" placeholder="Bob Smith" />
-
-            </div>
-
-            <div className="form-group">
-              <label>Email address</label>
-              <input type="email" className="form-control" id="exampleInputEmail1" name="email" placeholder="email@gmail.com" />
-            </div>
-
-            <div className="form-group">
-              <label>Message</label>
-              <textarea name="message" className="form-control" id="exampleFormControlTextarea1" rows="6" />
-            </div>
-
-            {status === "SUCCESS" ? <p className="success">Thank you for sending me a message!</p> : <Button className="m-2" variant="outline-primary">
-                        Submit
-                      </Button>}
-            {status === "ERROR" && <p className="failure">Ooops! There was an error. Please fill out all the fields and try again</p>}
-          </form>
-          <div className="contactInfo text-center">
-            <span>Email: </span><a href="mailto:kamara.moses@yahoo.com">kamara.moses@yahoo.com</a><br />
-            <span>Call: </span><a href="tel:(206) 302-8844">(206) 302-8844</a><br />
-          </div>
-        </div>
-      </div>
-
-    );
-  }
 }
-export default Contact
