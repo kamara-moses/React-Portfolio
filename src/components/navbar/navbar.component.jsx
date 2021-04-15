@@ -15,7 +15,7 @@ const MyNavbar = () => {
       >
         <div>
           <Navbar.Brand href="#home">
-            <h1>Moses Kamara</h1>
+            <h1>MK</h1>
           </Navbar.Brand>
         </div>
         <div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import Carousel from 'react-bootstrap/Carousel'
 
 
 // projects
@@ -13,12 +14,95 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import "./projects.css";
 
-{/* Projects being shown in a timeline manner */}
+{/* Projects being shown in a carousel manner */}
+
+
+
 const TimeLine = () => {
   return (
     <div id="projects">
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
-      <Timeline>
+      <Carousel fade>
+      <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={trails}
+      alt="Trails App"
+    />
+    <Carousel.Caption>
+      <h3>Trials</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={userdirectory}
+      alt="User Directory App"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={trader_pro}
+      alt="Trader Pro App"
+    />
+
+    <Carousel.Caption>
+      <h3>Trader Pro</h3>
+      {/* <strong>Description:</strong> This is an application that allows user to select a stock they will like to watch and receive real time stock market info for the stock of their choosing
+        <hr />
+        <strong>Features:</strong>
+          <ul className="list-styles pt-1">
+            <li>Real Time Stock Info</li>
+            <li>Tracking of Stocks</li>
+            <li>Respoisive Design</li>
+          </ul> */}
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={burger}
+      alt="Burger App"
+    />
+
+    <Carousel.Caption>
+      <h3>Burger</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={scheduler}
+      alt="Scheduler App"
+    />
+
+    <Carousel.Caption>
+      <h3>Scheduler</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={weather_dashboard}
+      alt="Weather Dashboard"
+    />
+
+    <Carousel.Caption>
+      <h3>Weather Dashboard</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+      {/* <Timeline>
         <Events>
         <ImageEvent
             className="text-center"
@@ -320,7 +404,7 @@ The app will store every burger in a database, whether devoured or not.
             </div>
           </ImageEvent>
           </Events>
-          </Timeline>
+          </Timeline> */}
     </div>
   );
 };

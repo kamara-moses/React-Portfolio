@@ -5,7 +5,8 @@
 
 /* styling the background of the about section */
 .about {
-  background-color: transparent;
+  background-image: url(../../assets/img/background/background.webp);
+  /* background-color: transparent; */
   font-size: 1.1em;
 }
 
